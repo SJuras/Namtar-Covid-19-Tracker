@@ -1,5 +1,8 @@
 import React from 'react';
 import { MenuItem, FormControl, Select } from "@material-ui/core";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import './App.css';
 
 import NamtarLogo from './assets/namtarLogo.png';
@@ -37,8 +40,8 @@ function App() {
       <footer>
         <div className="footer-row">
           <div className="footer-box-smaller">
-            <h4>NAMTAR</h4>
-            <h5>COVID-19 Tracker</h5>
+            <h2>NAMTAR</h2>
+            <h1>COVID-19 Tracker</h1>
           </div>
           <div className="footer-box-bigger">
             <div className="bigger-box">
@@ -60,12 +63,11 @@ function App() {
               </ul>
             </div>
             <div className="bigger-box">
-              <h4>Useful Links</h4>
+              <h4>Social</h4>
               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
+                <li><a href=""><FaFacebookF style={{marginBottom: "-3px", marginRight: "6px"}} />Facebook</a></li>
+                <li><a href=""><FaInstagram style={{marginBottom: "-3px", marginRight: "6px"}} />Instagram</a></li>
+                <li><a href=""><FaGithub style={{marginBottom: "-3px", marginRight: "6px"}} />GitHub</a></li>
               </ul>
             </div>
           </div>

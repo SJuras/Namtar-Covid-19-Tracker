@@ -41,6 +41,7 @@ img {
   height: auto;
 }
 
+
 footer {
   width: 100%;
 }
@@ -55,8 +56,12 @@ footer {
   width: 33%;
 }
 
-.footer-box-smaller h4 {
+.footer-box-smaller h2 {
   font-size: 24px;
+}
+
+.footer-box-smaller h1 {
+  font-size: 18px;
 }
 
 .footer-box-bigger {
@@ -66,6 +71,15 @@ footer {
 
 .bigger-box {
   flex: 1;
+}
+
+.bigger-box h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.bigger-box ul li {
+  margin-bottom: 6px;
 }
 
 .bigger-box ul li a {
@@ -109,6 +123,19 @@ footer {
 }
 
 @media (max-width: 575.98px) {
+
+  .app__header {
+    flex-direction: column;
+  }
+
+  .app__header .logo {
+    width: 100%;
+  }
+
+  .app__dropdown {
+    width: 100%;
+  }
+
   .footer-row-2 {
     flex-direction: column;
   }
